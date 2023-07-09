@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 40px;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+.comment-card {
+  display: flex;
+  flex-direction: row;
+}
+.comment-card-description {
+  display: flex;
+  flex-direction: column;
+}
+.comment-image {
+  width: 270px;
+  height: 200px;
+  align-self: flex-end;
+  margin-left: 60px;
+}
+.inputs {
+  font-family: roboto;
+  border-color: #dee0e3;
+  margin-bottom: 20px;
+  border-style: solid;
+  padding: 7px;
+}
+.button {
+  color: #cbd2d9;
+  background-color: #0284c7;
+  border-width: 0px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.added-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+.added-comment-container-top {
+  display: flex;
+  flex-direction: row;
+}
+.count-container {
+  color: #cbd2d9;
+  background-color: #0284c7;
+  border-width: 0px;
+  border-radius: 2px;
+  padding: 3px;
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+.count-container-head {
+  font-weight: bold;
+}
+.line {
+  border-color: #dee0e3;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.adding-comments-container {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.initial-container {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+  color: #dee0e3;
+}
